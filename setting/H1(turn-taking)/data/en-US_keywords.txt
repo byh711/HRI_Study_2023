@@ -1,0 +1,265 @@
+{
+    ".*\\bhi\\b.*" : "[
+        'hi',
+        'hello there'
+    ]",
+    ".*hello.*"	: "[
+        'hi',
+        'hello there'
+    ]",
+    ".*\\bnice to see you\\b.*" : "[
+        'Greetings',
+        'You too'
+    ]",
+    ".*how are you.*" : "[
+        'Good',
+        'Doing well'
+    ]",
+    ".*monster.*near.*" : "[
+        'I\\'m not sure',
+        'Maybe',
+        'We\\'ll find out'
+    ]",
+     ".*monster.*" : "[
+        'We\\'ll find out',
+        'Seems dangerous',
+        'Just part of the game'
+    ]",
+    ".*oh my god.*" : "[
+        'Is there a problem?',
+        'Do you need help?'
+    ]",
+    ".*\\baah\\b.*" : "[
+        'Is there a problem?',
+        'Do you need help?'
+    ]",
+    ".*bad.*" : "[
+        'Is there a problem?',
+        'Do you need help?'
+    ]",
+    ".*where.*go.*" : "[
+        'Lead on. I\\'ll follow you',
+        'Let\\'s just wander around'
+    ]",
+    ".*what.*do.*" : "[
+        'Good question',
+        'Let\\'s try this'
+    ]",
+    ".*\\battack\\b.*" : "[
+        'That seems dangerous',
+        'This is a bad idea',
+        'Do you need help?'
+    ]",
+    ".*attacked.*" : "[
+        'That seems dangerous',
+        'This is a bad idea',
+        'Do you need help?'
+    ]",
+    ".*die.*" : "[
+        'That\\'s a problem',
+        'This game is hard',
+        'Let\\'s try this'
+    ]",
+    ".*come.*" : "[
+        'Okay, I\\'ll come to you'
+    ]",
+    ".*go.*away.*" : "[
+        'I\\'ll moveback from you'
+    ]",
+    ".*wait.*" : "[
+        'I\\'ll wait from here'
+    ]",
+    ".*^((?!i|I).).*(can|please)?.*give.*grass.*(please)?.*" : "[
+        'Okay, I\\'ll give it to you.',
+        'Of course, here you go.'
+    ]",
+    ".*^((?!i|I).).*(can|please)?.*give.*wood.*(please)?.*" : "[
+        'Okay, I\\'ll give it to you.',
+        'Of course, here you go.'
+    ]",
+    ".*^((?!i|I).).*(can|please)?.*give.*rock.*(please)?.*" : "[
+        'Okay, I\\'ll give it to you.',
+        'Of course, here you go.'
+    ]",
+    ".*^((?!i|I).).*(can|please)?.*give.*flint.*(please)?.*" : "[
+        'Okay, I\\'ll give it to you.',
+        'Of course, here you go.'
+    ]",
+    ".*^((?!i|I).).*(can|please)?.*give.*log.*(please)?.*" : "[
+        'Okay, I\\'ll give it to you.',
+        'Of course, here you go.'
+    ]",
+    ".*^((?!i|I).).*(can|please)?.*give.*twigs.*(please)?.*" : "[
+        'Okay, I\\'ll give it to you.',
+        'Of course, here you go.'
+    ]",
+    ".*^((?!i|I).).*(can|please)?.*give.*food.*(please)?.*" : "[
+        'I\\'ll check my inventory.',
+        'I\\'ll give it to you.',
+        'I don\\'t have much food left.'
+    ]",
+    ".*let.*kill.*": "[
+        'Go ahead.',
+        'Attack!.',
+        'I\\'ll protect you.'
+    ]",
+    ".*let.*go.*": "[
+        'Lead on, I\\'ll follow you.',
+        'Sure, Where is it?',
+        'Think I lost my way.'
+    ]",
+
+    ".*let.*find.*": "[
+        'Okay, I\\'ll keep an eye out for it.',
+        'Sorry, I can\\'t find it.',
+        'Sorry, but I don\\'t have any idea.'
+    ]",
+
+    ".*need.*(grass|wood|rock|flint|log|twigs).*": "[
+        'Let\\'s find out.',
+        'Okay, let\\'s wander around to collect them.',
+        'How many do we need?'
+    ]",
+
+    ".*need.*(fire|light).*": "[
+        'Let\\'s find some things to burn.',
+        'I\\'ll make a torch then.'
+    ]",
+
+    ".*need.*(something|some).*": "[
+        'Hmm, I don\\'t get it.',
+        'What actually do you need?'
+    ]",
+
+    ".*need.*make.*": "[
+        'I\\'ll try to make it.',
+        'I think I don\\'t have enough resources.',
+        'Let\\'s find out.'
+    ]",
+
+    ".*(?!.*(you)).*need.*help.*(me|please)?.*": "[
+        'Hold on, I\\'ll come to you.',
+        'Of course, what can I help you with?',
+        'What you are struggling with?'
+    ]",
+
+    ".*help.*me.*": "[
+        'Hold on, I\\'ll come to you.',
+        'Of course, what can I help you with?',
+        'What you are struggling with?'
+    ]",
+
+    ".*need.*food.*": "[
+        'Umm, isn\\'t there anything near you?',
+        'I\\'ll try to grab something for you.',
+        'Let\\'s work together to find some.'
+    ]",
+
+    ".*come.*(back|here).*": "[
+        'I\\'ll come to you.',
+        'I\\'ll return to you as soon as possible.',
+        'Do you need any help?'
+    ]",
+
+    ".*know.*how.*": "[
+        'I have no idea.',
+        'We can use our intuition.',
+        'You haven\\'t learned how yet?'
+    ]",
+
+    ".*go.*find.*": "[
+        'I\\'ll keep searching for it.',
+        'I\\'ll look around.',
+        'Let\\'s go together.'
+    ]",
+
+    ".*need.*find.*": "[
+        'How many do we need?',
+        'Let\\'s wander around to find some.'
+    ]",
+
+    ".*find.*food.*": "[
+        'How many food do you need?'
+    ]",
+
+    ".*eat.*something.*": "[
+        'Can you give me some food?',
+        'My food gauge is low.',
+        'Maybe we can grow some crops.'
+    ]",
+
+    ".*build.*fire.*": "[
+        'Yeah, we need a fire to spend the night safely.',
+        'Watch out for fire!. It can burn everything!'
+    ]",
+
+    ".*go.*(back|home|sleep|camp).*": "[
+        'Let\\'s return to the camp.',
+        'I want to rest in a safe place.',
+        'Can you lead the way?'
+    ]",
+
+    ".*I.*think.*": "[
+        'I agree with you.',
+        'Could you explain more about it?',
+        'Sorry, I don\\'t get it.'
+    ]",
+
+    ".*make.*(torch|fire|campfire).*": "[        
+        'Do we have enough resources for it?',       
+        'I hate darkness.'    
+    ]",
+
+    ".*food.*" : "[
+        'I don\\'t know',
+        'Let\\'s find some soon',
+        'Food is always good'
+    ]",
+
+    ".*night.*" : "[
+        'Night is scary',
+        'There are monsters at night',
+        'Let\\'s prepare'
+    ]",
+
+    ".*campfire.*" : "[
+        'Good idea',
+        'Light is safer'
+    ]",
+
+    ".*help.*" : "[
+        'I don\\'t know',
+        'Trying my best',
+        'I have no idea',
+        'This game is hard'
+    ]",
+
+    ".*problem.*" : "[
+        'I don\\'t know',
+        'Trying my best',
+        'I have no idea',
+        'This game is hard'
+    ]",
+
+    ".*kill.*" : "[
+        'That\\'s one way to do it',
+        'Bold move',
+        'Oh god'
+    ]",
+
+    ".*want.*" : "[
+        'Good idea',
+        'I\\'ll think about it',
+        'Couldn\\'t hurt'
+    ]"
+}																				
+			
+
+
+
+
+
+
+
+
+
