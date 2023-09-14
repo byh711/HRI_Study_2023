@@ -1,0 +1,8 @@
+#ifndef __GIT_VERSION_HPP
+#define __GIT_VERSION_HPP
+
+#define OPENSMILE_SOURCE_REVISION "unknown"
+#define OPENSMILE_BUILD_DATE "2023-02-06T02:56:20Z"
+#define OPENSMILE_BUILD_BRANCH "unknown"
+
+#endif // __GIT_VERSION_HPP

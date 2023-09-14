@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\admin\Desktop\opensmile\build\CMakeFiles\c6b5a6e5b15eca5444b2f24c0b0b148e\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{3C1D346D-1CC8-37E6-AA03-7E310A8A5878}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
