@@ -1,0 +1,10 @@
+C:/Users/admin/Desktop/opensmile/build/CMakeFiles/opensmile.dir
+C:/Users/admin/Desktop/opensmile/build/CMakeFiles/INSTALL.dir
+C:/Users/admin/Desktop/opensmile/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/admin/Desktop/opensmile/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/admin/Desktop/opensmile/build/src/newmat/CMakeFiles/newmat.dir
+C:/Users/admin/Desktop/opensmile/build/src/newmat/CMakeFiles/INSTALL.dir
+C:/Users/admin/Desktop/opensmile/build/progsrc/smileapi/CMakeFiles/SMILEapi.dir
+C:/Users/admin/Desktop/opensmile/build/progsrc/smileapi/CMakeFiles/INSTALL.dir
+C:/Users/admin/Desktop/opensmile/build/progsrc/smilextract/CMakeFiles/SMILExtract.dir
+C:/Users/admin/Desktop/opensmile/build/progsrc/smilextract/CMakeFiles/INSTALL.dir

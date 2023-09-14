@@ -1,0 +1,458 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake:204 (message)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      The system is: Windows - 10.0.19042 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      .NET Framework용 Microsoft (R) Build Engine 버전 16.11.2+f32259642
+      Copyright (C) Microsoft Corporation. All rights reserved.
+      
+      빌드 시작: 2023-02-06 오전 11:56:13
+      1 노드의 "C:\\Users\\admin\\Desktop\\opensmile\\build\\CMakeFiles\\3.26.0-rc1\\CompilerIdC\\CompilerIdC.vcxproj" 프로젝트(기본 대상)입니다.
+      PrepareForBuild:
+        "Debug\\" 디렉터리를 만들고 있습니다.
+        "Debug\\CompilerIdC.tlog\\" 디렉터리를 만들고 있습니다.
+      InitializeBuildStatus:
+        "AlwaysCreate"이(가) 지정되었기 때문에 "Debug\\CompilerIdC.tlog\\unsuccessfulbuild"을(를) 만들고 있습니다.
+      VcpkgTripletSelection:
+        Using triplet "x64-windows" from "C:\\Users\\admin\\vcpkg\\installed\\x64-windows\\"
+        Using normalized configuration "Release"
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Enterprise\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\admin\\vcpkg\\installed\\x64-windows\\include" /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc142.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Enterprise\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\\Users\\admin\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\Users\\admin\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "C:\\Users\\admin\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\admin\\Desktop\\opensmile\\build\\CMakeFiles\\3.26.0-rc1\\CompilerIdC\\CompilerIdC.exe
+      AppLocalFromInstalled:
+        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\admin\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\admin\\Desktop\\opensmile\\build\\CMakeFiles\\3.26.0-rc1\\CompilerIdC\\CompilerIdC.exe" "C:\\Users\\admin\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+        'pwsh.exe'은(는) 내부 또는 외부 명령, 실행할 수 있는 프로그램, 또는
+        배치 파일이 아닙니다.
+        "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\admin\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\admin\\Desktop\\opensmile\\build\\CMakeFiles\\3.26.0-rc1\\CompilerIdC\\CompilerIdC.exe" "C:\\Users\\admin\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"" 명령이 종료되었습니다(코드: 9009).
+        "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\admin\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\admin\\Desktop\\opensmile\\build\\CMakeFiles\\3.26.0-rc1\\CompilerIdC\\CompilerIdC.exe" "C:\\Users\\admin\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Enterprise\\VC\\Tools\\MSVC\\14.29.30133\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" 파일을 삭제하고 있습니다.
+        "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate"에 연결(touching)하고 있습니다.
+      "C:\\Users\\admin\\Desktop\\opensmile\\build\\CMakeFiles\\3.26.0-rc1\\CompilerIdC\\CompilerIdC.vcxproj" 프로젝트를 빌드했습니다(기본 대상).
+      
+      빌드했습니다.
+          경고 0개
+          오류 0개
+      
+      경과 시간: 00:00:01.87
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/admin/Desktop/opensmile/build/CMakeFiles/3.26.0-rc1/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      .NET Framework용 Microsoft (R) Build Engine 버전 16.11.2+f32259642
+      Copyright (C) Microsoft Corporation. All rights reserved.
+      
+      빌드 시작: 2023-02-06 오전 11:56:15
+      1 노드의 "C:\\Users\\admin\\Desktop\\opensmile\\build\\CMakeFiles\\3.26.0-rc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" 프로젝트(기본 대상)입니다.
+      PrepareForBuild:
+        "Debug\\" 디렉터리를 만들고 있습니다.
+        "Debug\\CompilerIdCXX.tlog\\" 디렉터리를 만들고 있습니다.
+      InitializeBuildStatus:
+        "AlwaysCreate"이(가) 지정되었기 때문에 "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild"을(를) 만들고 있습니다.
+      VcpkgTripletSelection:
+        Using triplet "x64-windows" from "C:\\Users\\admin\\vcpkg\\installed\\x64-windows\\"
+        Using normalized configuration "Release"
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Enterprise\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\admin\\vcpkg\\installed\\x64-windows\\include" /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc142.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Enterprise\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\\Users\\admin\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\Users\\admin\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "C:\\Users\\admin\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\admin\\Desktop\\opensmile\\build\\CMakeFiles\\3.26.0-rc1\\CompilerIdCXX\\CompilerIdCXX.exe
+      AppLocalFromInstalled:
+        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\admin\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\admin\\Desktop\\opensmile\\build\\CMakeFiles\\3.26.0-rc1\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Users\\admin\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+        'pwsh.exe'은(는) 내부 또는 외부 명령, 실행할 수 있는 프로그램, 또는
+        배치 파일이 아닙니다.
+        "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\admin\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\admin\\Desktop\\opensmile\\build\\CMakeFiles\\3.26.0-rc1\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Users\\admin\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"" 명령이 종료되었습니다(코드: 9009).
+        "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\admin\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\admin\\Desktop\\opensmile\\build\\CMakeFiles\\3.26.0-rc1\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Users\\admin\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Enterprise\\VC\\Tools\\MSVC\\14.29.30133\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" 파일을 삭제하고 있습니다.
+        "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate"에 연결(touching)하고 있습니다.
+      "C:\\Users\\admin\\Desktop\\opensmile\\build\\CMakeFiles\\3.26.0-rc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" 프로젝트를 빌드했습니다(기본 대상).
+      
+      빌드했습니다.
+          경고 0개
+          오류 0개
+      
+      경과 시간: 00:00:01.35
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/admin/Desktop/opensmile/build/CMakeFiles/3.26.0-rc1/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/admin/Desktop/opensmile/build/CMakeFiles/CMakeScratch/TryCompile-r1oljg"
+      binary: "C:/Users/admin/Desktop/opensmile/build/CMakeFiles/CMakeScratch/TryCompile-r1oljg"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      VCPKG_APPLOCAL_DEPS: "ON"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Users/admin/vcpkg"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/admin/Desktop/opensmile/build/CMakeFiles/CMakeScratch/TryCompile-r1oljg
+        
+        Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_af5f7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n && .NET Framework용 Microsoft (R) Build Engine 버전 16.11.2+f32259642
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        빌드 시작: 2023-02-06 오전 11:56:17
+        1 노드의 "C:\\Users\\admin\\Desktop\\opensmile\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r1oljg\\cmTC_af5f7.vcxproj" 프로젝트(기본 대상)입니다.
+        PrepareForBuild:
+          "cmTC_af5f7.dir\\Debug\\" 디렉터리를 만들고 있습니다.
+          "C:\\Users\\admin\\Desktop\\opensmile\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r1oljg\\Debug\\" 디렉터리를 만들고 있습니다.
+          "cmTC_af5f7.dir\\Debug\\cmTC_af5f7.tlog\\" 디렉터리를 만들고 있습니다.
+        InitializeBuildStatus:
+          "AlwaysCreate"이(가) 지정되었기 때문에 "cmTC_af5f7.dir\\Debug\\cmTC_af5f7.tlog\\unsuccessfulbuild"을(를) 만들고 있습니다.
+        VcpkgTripletSelection:
+          Not using Vcpkg because VcpkgEnabled is "false"
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Enterprise\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_af5f7.dir\\Debug\\\\" /Fd"cmTC_af5f7.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ 최적화 컴파일러 버전 19.29.30147(x64)
+          Copyright (c) Microsoft Corporation. All rights reserved.
+          CMakeCCompilerABI.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_af5f7.dir\\Debug\\\\" /Fd"cmTC_af5f7.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Enterprise\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\admin\\Desktop\\opensmile\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r1oljg\\Debug\\cmTC_af5f7.exe" /INCREMENTAL /ILK:"cmTC_af5f7.dir\\Debug\\cmTC_af5f7.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/admin/Desktop/opensmile/build/CMakeFiles/CMakeScratch/TryCompile-r1oljg/Debug/cmTC_af5f7.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/admin/Desktop/opensmile/build/CMakeFiles/CMakeScratch/TryCompile-r1oljg/Debug/cmTC_af5f7.lib" /MACHINE:X64  /machine:x64 cmTC_af5f7.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_af5f7.vcxproj -> C:\\Users\\admin\\Desktop\\opensmile\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r1oljg\\Debug\\cmTC_af5f7.exe
+        PostBuildEvent:
+          setlocal
+          C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -noprofile -executionpolicy Bypass -file C:/Users/admin/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary C:/Users/admin/Desktop/opensmile/build/CMakeFiles/CMakeScratch/TryCompile-r1oljg/Debug/cmTC_af5f7.exe -installedDir C:/Users/admin/vcpkg/installed/x64-windows/debug/bin -OutVariable out
+          if %errorlevel% neq 0 goto :cmEnd
+          :cmEnd
+          endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+          :cmErrorLevel
+          exit /b %1
+          :cmDone
+          if %errorlevel% neq 0 goto :VCEnd
+          :VCEnd
+        FinalizeBuildStatus:
+          "cmTC_af5f7.dir\\Debug\\cmTC_af5f7.tlog\\unsuccessfulbuild" 파일을 삭제하고 있습니다.
+          "cmTC_af5f7.dir\\Debug\\cmTC_af5f7.tlog\\cmTC_af5f7.lastbuildstate"에 연결(touching)하고 있습니다.
+        "C:\\Users\\admin\\Desktop\\opensmile\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r1oljg\\cmTC_af5f7.vcxproj" 프로젝트를 빌드했습니다(기본 대상).
+        
+        빌드했습니다.
+            경고 0개
+            오류 0개
+        
+        경과 시간: 00:00:01.26
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/admin/Desktop/opensmile/build/CMakeFiles/CMakeScratch/TryCompile-6d9jq9"
+      binary: "C:/Users/admin/Desktop/opensmile/build/CMakeFiles/CMakeScratch/TryCompile-6d9jq9"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      VCPKG_APPLOCAL_DEPS: "ON"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Users/admin/vcpkg"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/admin/Desktop/opensmile/build/CMakeFiles/CMakeScratch/TryCompile-6d9jq9
+        
+        Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_a2882.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n && .NET Framework용 Microsoft (R) Build Engine 버전 16.11.2+f32259642
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        빌드 시작: 2023-02-06 오전 11:56:19
+        1 노드의 "C:\\Users\\admin\\Desktop\\opensmile\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6d9jq9\\cmTC_a2882.vcxproj" 프로젝트(기본 대상)입니다.
+        PrepareForBuild:
+          "cmTC_a2882.dir\\Debug\\" 디렉터리를 만들고 있습니다.
+          "C:\\Users\\admin\\Desktop\\opensmile\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6d9jq9\\Debug\\" 디렉터리를 만들고 있습니다.
+          "cmTC_a2882.dir\\Debug\\cmTC_a2882.tlog\\" 디렉터리를 만들고 있습니다.
+        InitializeBuildStatus:
+          "AlwaysCreate"이(가) 지정되었기 때문에 "cmTC_a2882.dir\\Debug\\cmTC_a2882.tlog\\unsuccessfulbuild"을(를) 만들고 있습니다.
+        VcpkgTripletSelection:
+          Not using Vcpkg because VcpkgEnabled is "false"
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Enterprise\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_a2882.dir\\Debug\\\\" /Fd"cmTC_a2882.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ 최적화 컴파일러 버전 19.29.30147(x64)
+          Copyright (c) Microsoft Corporation. All rights reserved.
+          CMakeCXXCompilerABI.cpp
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_a2882.dir\\Debug\\\\" /Fd"cmTC_a2882.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Enterprise\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\admin\\Desktop\\opensmile\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6d9jq9\\Debug\\cmTC_a2882.exe" /INCREMENTAL /ILK:"cmTC_a2882.dir\\Debug\\cmTC_a2882.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/admin/Desktop/opensmile/build/CMakeFiles/CMakeScratch/TryCompile-6d9jq9/Debug/cmTC_a2882.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/admin/Desktop/opensmile/build/CMakeFiles/CMakeScratch/TryCompile-6d9jq9/Debug/cmTC_a2882.lib" /MACHINE:X64  /machine:x64 cmTC_a2882.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_a2882.vcxproj -> C:\\Users\\admin\\Desktop\\opensmile\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6d9jq9\\Debug\\cmTC_a2882.exe
+        PostBuildEvent:
+          setlocal
+          C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -noprofile -executionpolicy Bypass -file C:/Users/admin/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary C:/Users/admin/Desktop/opensmile/build/CMakeFiles/CMakeScratch/TryCompile-6d9jq9/Debug/cmTC_a2882.exe -installedDir C:/Users/admin/vcpkg/installed/x64-windows/debug/bin -OutVariable out
+          if %errorlevel% neq 0 goto :cmEnd
+          :cmEnd
+          endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+          :cmErrorLevel
+          exit /b %1
+          :cmDone
+          if %errorlevel% neq 0 goto :VCEnd
+          :VCEnd
+        FinalizeBuildStatus:
+          "cmTC_a2882.dir\\Debug\\cmTC_a2882.tlog\\unsuccessfulbuild" 파일을 삭제하고 있습니다.
+          "cmTC_a2882.dir\\Debug\\cmTC_a2882.tlog\\cmTC_a2882.lastbuildstate"에 연결(touching)하고 있습니다.
+        "C:\\Users\\admin\\Desktop\\opensmile\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6d9jq9\\cmTC_a2882.vcxproj" 프로젝트를 빌드했습니다(기본 대상).
+        
+        빌드했습니다.
+            경고 0개
+            오류 0개
+        
+        경과 시간: 00:00:01.32
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckCSourceCompiles.cmake:76 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "C:/Users/admin/vcpkg/scripts/buildsystems/vcpkg.cmake:843 (_find_package)"
+      - "CMakeLists.txt:388 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "C:/Users/admin/Desktop/opensmile/build/CMakeFiles/CMakeScratch/TryCompile-h8xdp8"
+      binary: "C:/Users/admin/Desktop/opensmile/build/CMakeFiles/CMakeScratch/TryCompile-h8xdp8"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3 /wd4244 /wd4267 /wd4305 /EHsc"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/admin/Desktop/opensmile/cmake"
+      VCPKG_APPLOCAL_DEPS: "ON"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Users/admin/vcpkg"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/admin/Desktop/opensmile/build/CMakeFiles/CMakeScratch/TryCompile-h8xdp8
+        
+        Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_c0eb2.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n && .NET Framework용 Microsoft (R) Build Engine 버전 16.11.2+f32259642
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        빌드 시작: 2023-02-06 오전 11:56:20
+        1 노드의 "C:\\Users\\admin\\Desktop\\opensmile\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h8xdp8\\cmTC_c0eb2.vcxproj" 프로젝트(기본 대상)입니다.
+        PrepareForBuild:
+          "cmTC_c0eb2.dir\\Debug\\" 디렉터리를 만들고 있습니다.
+          "C:\\Users\\admin\\Desktop\\opensmile\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h8xdp8\\Debug\\" 디렉터리를 만들고 있습니다.
+          "cmTC_c0eb2.dir\\Debug\\cmTC_c0eb2.tlog\\" 디렉터리를 만들고 있습니다.
+        InitializeBuildStatus:
+          "AlwaysCreate"이(가) 지정되었기 때문에 "cmTC_c0eb2.dir\\Debug\\cmTC_c0eb2.tlog\\unsuccessfulbuild"을(를) 만들고 있습니다.
+        VcpkgTripletSelection:
+          Not using Vcpkg because VcpkgEnabled is "false"
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Enterprise\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c0eb2.dir\\Debug\\\\" /Fd"cmTC_c0eb2.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /wd4244 /wd4267 /wd4305 /errorReport:queue "C:\\Users\\admin\\Desktop\\opensmile\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h8xdp8\\src.c"
+          Microsoft (R) C/C++ 최적화 컴파일러 버전 19.29.30147(x64)
+          Copyright (c) Microsoft Corporation. All rights reserved.
+          src.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c0eb2.dir\\Debug\\\\" /Fd"cmTC_c0eb2.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /wd4244 /wd4267 /wd4305 /errorReport:queue "C:\\Users\\admin\\Desktop\\opensmile\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h8xdp8\\src.c"
+        C:\\Users\\admin\\Desktop\\opensmile\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h8xdp8\\src.c(1,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'pthread.h': No such file or directory [C:\\Users\\admin\\Desktop\\opensmile\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h8xdp8\\cmTC_c0eb2.vcxproj]
+        "C:\\Users\\admin\\Desktop\\opensmile\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h8xdp8\\cmTC_c0eb2.vcxproj" 프로젝트를 빌드했습니다(기본 대상). - 실패
+        
+        빌드하지 못했습니다.
+        
+        "C:\\Users\\admin\\Desktop\\opensmile\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h8xdp8\\cmTC_c0eb2.vcxproj"(기본 대상)(1)->
+        (ClCompile 대상) -> 
+          C:\\Users\\admin\\Desktop\\opensmile\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h8xdp8\\src.c(1,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'pthread.h': No such file or directory [C:\\Users\\admin\\Desktop\\opensmile\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h8xdp8\\cmTC_c0eb2.vcxproj]
+        
+            경고 0개
+            오류 1개
+        
+        경과 시간: 00:00:00.34
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckLibraryExists.cmake:71 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "C:/Users/admin/vcpkg/scripts/buildsystems/vcpkg.cmake:843 (_find_package)"
+      - "CMakeLists.txt:388 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "C:/Users/admin/Desktop/opensmile/build/CMakeFiles/CMakeScratch/TryCompile-d15234"
+      binary: "C:/Users/admin/Desktop/opensmile/build/CMakeFiles/CMakeScratch/TryCompile-d15234"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3 /wd4244 /wd4267 /wd4305 /EHsc"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/admin/Desktop/opensmile/cmake"
+      VCPKG_APPLOCAL_DEPS: "ON"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Users/admin/vcpkg"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/admin/Desktop/opensmile/build/CMakeFiles/CMakeScratch/TryCompile-d15234
+        
+        Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_ae528.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n && .NET Framework용 Microsoft (R) Build Engine 버전 16.11.2+f32259642
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        빌드 시작: 2023-02-06 오전 11:56:21
+        1 노드의 "C:\\Users\\admin\\Desktop\\opensmile\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d15234\\cmTC_ae528.vcxproj" 프로젝트(기본 대상)입니다.
+        PrepareForBuild:
+          "cmTC_ae528.dir\\Debug\\" 디렉터리를 만들고 있습니다.
+          "C:\\Users\\admin\\Desktop\\opensmile\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d15234\\Debug\\" 디렉터리를 만들고 있습니다.
+          "cmTC_ae528.dir\\Debug\\cmTC_ae528.tlog\\" 디렉터리를 만들고 있습니다.
+        InitializeBuildStatus:
+          "AlwaysCreate"이(가) 지정되었기 때문에 "cmTC_ae528.dir\\Debug\\cmTC_ae528.tlog\\unsuccessfulbuild"을(를) 만들고 있습니다.
+        VcpkgTripletSelection:
+          Not using Vcpkg because VcpkgEnabled is "false"
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Enterprise\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ae528.dir\\Debug\\\\" /Fd"cmTC_ae528.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /wd4244 /wd4267 /wd4305 /errorReport:queue "C:\\Users\\admin\\Desktop\\opensmile\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d15234\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ 최적화 컴파일러 버전 19.29.30147(x64)
+          Copyright (c) Microsoft Corporation. All rights reserved.
+          CheckFunctionExists.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ae528.dir\\Debug\\\\" /Fd"cmTC_ae528.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /wd4244 /wd4267 /wd4305 /errorReport:queue "C:\\Users\\admin\\Desktop\\opensmile\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d15234\\CheckFunctionExists.c"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Enterprise\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\admin\\Desktop\\opensmile\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d15234\\Debug\\cmTC_ae528.exe" /INCREMENTAL /ILK:"cmTC_ae528.dir\\Debug\\cmTC_ae528.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/admin/Desktop/opensmile/build/CMakeFiles/CMakeScratch/TryCompile-d15234/Debug/cmTC_ae528.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/admin/Desktop/opensmile/build/CMakeFiles/CMakeScratch/TryCompile-d15234/Debug/cmTC_ae528.lib" /MACHINE:X64  /machine:x64 cmTC_ae528.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: 'pthreads.lib' 파일을 열 수 없습니다. [C:\\Users\\admin\\Desktop\\opensmile\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d15234\\cmTC_ae528.vcxproj]
+        "C:\\Users\\admin\\Desktop\\opensmile\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d15234\\cmTC_ae528.vcxproj" 프로젝트를 빌드했습니다(기본 대상). - 실패
+        
+        빌드하지 못했습니다.
+        
+        "C:\\Users\\admin\\Desktop\\opensmile\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d15234\\cmTC_ae528.vcxproj"(기본 대상)(1)->
+        (Link 대상) -> 
+          LINK : fatal error LNK1104: 'pthreads.lib' 파일을 열 수 없습니다. [C:\\Users\\admin\\Desktop\\opensmile\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d15234\\cmTC_ae528.vcxproj]
+        
+            경고 0개
+            오류 1개
+        
+        경과 시간: 00:00:00.42
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckLibraryExists.cmake:71 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "C:/Users/admin/vcpkg/scripts/buildsystems/vcpkg.cmake:843 (_find_package)"
+      - "CMakeLists.txt:388 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "C:/Users/admin/Desktop/opensmile/build/CMakeFiles/CMakeScratch/TryCompile-d5q7ol"
+      binary: "C:/Users/admin/Desktop/opensmile/build/CMakeFiles/CMakeScratch/TryCompile-d5q7ol"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3 /wd4244 /wd4267 /wd4305 /EHsc"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/admin/Desktop/opensmile/cmake"
+      VCPKG_APPLOCAL_DEPS: "ON"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Users/admin/vcpkg"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/admin/Desktop/opensmile/build/CMakeFiles/CMakeScratch/TryCompile-d5q7ol
+        
+        Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_0e4c7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n && .NET Framework용 Microsoft (R) Build Engine 버전 16.11.2+f32259642
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        빌드 시작: 2023-02-06 오전 11:56:22
+        1 노드의 "C:\\Users\\admin\\Desktop\\opensmile\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d5q7ol\\cmTC_0e4c7.vcxproj" 프로젝트(기본 대상)입니다.
+        PrepareForBuild:
+          "cmTC_0e4c7.dir\\Debug\\" 디렉터리를 만들고 있습니다.
+          "C:\\Users\\admin\\Desktop\\opensmile\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d5q7ol\\Debug\\" 디렉터리를 만들고 있습니다.
+          "cmTC_0e4c7.dir\\Debug\\cmTC_0e4c7.tlog\\" 디렉터리를 만들고 있습니다.
+        InitializeBuildStatus:
+          "AlwaysCreate"이(가) 지정되었기 때문에 "cmTC_0e4c7.dir\\Debug\\cmTC_0e4c7.tlog\\unsuccessfulbuild"을(를) 만들고 있습니다.
+        VcpkgTripletSelection:
+          Not using Vcpkg because VcpkgEnabled is "false"
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Enterprise\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0e4c7.dir\\Debug\\\\" /Fd"cmTC_0e4c7.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /wd4244 /wd4267 /wd4305 /errorReport:queue "C:\\Users\\admin\\Desktop\\opensmile\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d5q7ol\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ 최적화 컴파일러 버전 19.29.30147(x64)
+          Copyright (c) Microsoft Corporation. All rights reserved.
+          CheckFunctionExists.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0e4c7.dir\\Debug\\\\" /Fd"cmTC_0e4c7.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /wd4244 /wd4267 /wd4305 /errorReport:queue "C:\\Users\\admin\\Desktop\\opensmile\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d5q7ol\\CheckFunctionExists.c"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Enterprise\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\admin\\Desktop\\opensmile\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d5q7ol\\Debug\\cmTC_0e4c7.exe" /INCREMENTAL /ILK:"cmTC_0e4c7.dir\\Debug\\cmTC_0e4c7.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/admin/Desktop/opensmile/build/CMakeFiles/CMakeScratch/TryCompile-d5q7ol/Debug/cmTC_0e4c7.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/admin/Desktop/opensmile/build/CMakeFiles/CMakeScratch/TryCompile-d5q7ol/Debug/cmTC_0e4c7.lib" /MACHINE:X64  /machine:x64 cmTC_0e4c7.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: 'pthread.lib' 파일을 열 수 없습니다. [C:\\Users\\admin\\Desktop\\opensmile\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d5q7ol\\cmTC_0e4c7.vcxproj]
+        "C:\\Users\\admin\\Desktop\\opensmile\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d5q7ol\\cmTC_0e4c7.vcxproj" 프로젝트를 빌드했습니다(기본 대상). - 실패
+        
+        빌드하지 못했습니다.
+        
+        "C:\\Users\\admin\\Desktop\\opensmile\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d5q7ol\\cmTC_0e4c7.vcxproj"(기본 대상)(1)->
+        (Link 대상) -> 
+          LINK : fatal error LNK1104: 'pthread.lib' 파일을 열 수 없습니다. [C:\\Users\\admin\\Desktop\\opensmile\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d5q7ol\\cmTC_0e4c7.vcxproj]
+        
+            경고 0개
+            오류 1개
+        
+        경과 시간: 00:00:00.50
+        
+      exitCode: 1
+...
